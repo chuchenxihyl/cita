@@ -14,13 +14,14 @@
 
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
-use dotenv::dotenv;
+//use dotenv::dotenv;
 #[cfg(feature = "pubsub_kafka")]
 extern crate pubsub_kafka;
 #[cfg(feature = "pubsub_rabbitmq")]
 extern crate pubsub_rabbitmq;
 #[cfg(feature = "pubsub_zeromq")]
 extern crate pubsub_zeromq;
+use dotenv::dotenv;
 extern crate dotenv;
 
 
