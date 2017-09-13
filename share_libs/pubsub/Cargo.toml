@@ -10,7 +10,7 @@ pubsub_zeromq = { path="../pubsub_zeromq", optional = true }
 pubsub_kafka = { path="../pubsub_kafka", optional = true }
 
 [features]
-default = ["pubsub_kafka"]
+default = ["pubsub_zeromq"]
 rabbitmq = ["pubsub_rabbitmq"]
 zeromq = ["pubsub_zeromq"]
 kafka = ["pubsub_kafka"]
